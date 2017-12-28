@@ -5,7 +5,9 @@
 body {
   background: #ffffff;
   color: #222222;
-  font: 85%/1.5em Georgia, Times, 'Times New Roman', serif;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-size: 85%;
+  line-height: 1.5;
 }
 
 @media (min-width: 48em) {
