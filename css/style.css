@@ -5,7 +5,7 @@
 body {
   background: #ffffff;
   color: #222222;
-  font: 85%/1.5em "Merriweather", Times, serif;
+  font: 85%/1.5em Georgia, Times, 'Times New Roman', serif;
 }
 
 @media (min-width: 48em) {
@@ -14,8 +14,11 @@ body {
   }
 }
 
-h1, h2, h3, h4 {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 /* Links */
@@ -69,7 +72,9 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -81,7 +86,7 @@ html {
 
 .container::after {
   clear: both;
-  content: "";
+  content: '';
   display: table;
 }
 
@@ -114,7 +119,7 @@ html {
   border-radius: 100px;
   height: 12.5em;
   width: 12.5em;
-  padding: .125em;
+  padding: 0.125em;
 }
 
 .site-header__contact {
@@ -123,7 +128,7 @@ html {
 
 .site-header__contact--item {
   display: inline-block;
-  padding: .5em;
+  padding: 0.5em;
 }
 
 /* Sections */
@@ -133,14 +138,14 @@ html {
 
 .section::after {
   clear: both;
-  content: "";
+  content: '';
   display: table;
 }
 
 /* Time periods */
 .time {
   float: right;
-  font-size: .875em;
+  font-size: 0.875em;
   font-weight: normal;
 }
 
@@ -154,7 +159,7 @@ html {
 
 /* Profiles */
 .profiles__link:first-child {
-  margin-left: -.5em;
+  margin-left: -0.5em;
   padding-left: 0;
 }
 
@@ -166,7 +171,7 @@ html {
 }
 
 .profiles__link.pinterest {
-  color: #A02D22;
+  color: #a02d22;
 }
 
 /* Testimonials */
