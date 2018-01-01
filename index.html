@@ -4,16 +4,233 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Resume demo</title>
-  <meta name="description" content="Enter a description of this page">
+  <title>Resume | Your Name</title>
 
-
+  <link rel="stylesheet" href="https://unpkg.com/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 
 </head>
 
   <body>
 
+    <nav class="visuallyhidden focusable">
+      <a href="#content">Skip to main content</a>
+      <a href="#contact">Skip to contact information</a>
+      <a href="#summary">Skip to resume summary</a>
+      <a href="#skills">Skip to list of skills</a>
+      <a href="#recent-work">Skip to recent work</a>
+      <a href="#work-experience">Skip to work experience</a>
+      <a href="#education">Skip to education</a>
+      <a href="#testimonials">Skip to testimonials</a>
+      <a href="#social-media">Skip to social media links</a>
+    </nav>
 
+    <div class="container">
+      <header class="site-header">
+        <div class="branding">
+          <img src="images/unsplash-996-thumb.jpg" alt="my profile picture">
+          <h1>Your Name</h1>
+        </div><!-- end .branding -->
+
+        <dl id="contact" class="contact">
+          <div class="contact-item">
+            <dt>Phone</dt>
+            <dd>
+              <a href="tel:+1111222333">111-222-3333</a>
+            </dd>
+          </div>
+          
+          <div class="contact-item">
+            <dt>Email</dt>
+            <dd>
+              <a href="mailto:me@email.com">me@email.com</a>
+            </dd>
+          </div>
+
+          <div class="contact-item">
+            <dt>Web</dt>
+            <dd>
+              <a href="https://www.me.com">www.me.com</a>
+            </dd>
+          </div>
+        </dl>
+      </header><!-- end .site-header -->
+
+      <main id="content">
+        <section id="summary" class="summary section">
+          <h2 class="section-title">Summary</h2>
+
+          <div class="entry">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </section><!-- end #summary -->
+        
+        <section id="skills" class="skills section">
+          <h2 class="section-title">Skills</h2>
+
+          <div class="entry">
+            <ul class="skills-list">
+              <li>Skill 1</li>
+              <li>Skill 2</li>
+              <li>Skill 3</li>
+              <li>Skill 4</li>
+              <li>Skill 5</li>
+              <li>Skill 6</li>
+              <li>Skill 7</li>
+              <li>Skill 8</li>
+              <li>Skill 9</li>
+            </ul>
+          </div>
+        </section><!-- end #skills -->
+
+        <section id="recent-work" class="work section">
+          <h2 class="section-title">Recent Work</h2>
+
+          <div class="entry">
+            <ul class="portfolio">
+              <li>
+                <cite>
+                  <a href="#">Title of work</a>
+                </cite>
+                <br>
+                Description, synopsis, and/or contribution (if member of a team)
+              </li>
+              <li>
+                <cite>
+                  <a href="#">Title of work</a>
+                </cite>
+                <br>
+                Description, synopsis, and/or contribution (if member of a team)
+              </li>
+              <li>
+                <cite>
+                  <a href="#">Title of work</a>
+                </cite>
+                <br>
+                Description, synopsis, and/or contribution (if member of a team)
+              </li>
+            </ul>
+          </div>
+        </section><!-- end #recent-work -->
+
+        <section id="work-experience" class="experience section">
+          <h2 class="section-title">Experience</h2>
+
+          <div class="entry">
+            <article class="entry-item job">
+              <header class="entry-header">
+                <h3>Assistant Editor
+                  <span class="visuallyhidden">,</span>
+                  <span class="entry-date">January 2010 &ndash; June 2011</span>
+                </h3>
+                <p>Justo Inceptos Productions, Washington, DC</p>
+              </header>
+
+              <ul class="accomplishments">
+                <li>Accomplishment and/or responsibility</li>
+                <li>Accomplishment and/or responsibility</li>
+                <li>Accomplishment and/or responsibility</li>
+              </ul>
+            </article>
+
+            <article class="entry-item job">
+              <header class="entry-header">
+                <h3>Production Assistant
+                  <span class="visuallyhidden">,</span>
+                  <span class="entry-date">January 2010 &ndash; June 2011</span>
+                </h3>
+                <p>Parturient Cursus Media, Boston, MA</p>
+              </header>
+              
+              <ul class="accomplishments">
+                <li>Accomplishment and/or responsibility</li>
+                <li>Accomplishment and/or responsibility</li>
+                <li>Accomplishment and/or responsibility</li>
+              </ul>
+            </article>
+          </div>
+        </section><!-- end #work-experience -->
+
+        <section id="education" class="education section">
+          <h2 class="section-title">Education</h2>
+
+          <div class="entry">
+            <article class="entry-item edu">
+              <header class="entry-header">
+                <h3>ABC University
+                  <span class="visuallyhidden">,</span>
+                  <span class="entry-date">December 2015</span>
+                </h3>
+                <p>Master of Fine Arts, Film &amp; Electronic Media</p>
+              </header>
+              <p>Honors, awards, extracurricular activities, etc.</p>
+            </article>
+
+            <article class="entry-item edu">
+              <header class="entry-header">
+                <h3>University of XYZ
+                  <span class="visuallyhidden">,</span>
+                  <span class="entry-date">June 2009</span>
+                </h3>
+                <p>Bachelor of Arts, Sociology</p>
+              </header>
+              <p>Honors, awards, extracurricular activities, etc.</p>
+            </article>
+          </div>
+        </section><!-- end #education -->
+        
+        <section id="testimonials" class="testimonials section">
+          <h2 class="section-title">Testimonials</h2>
+
+          <div class="entry">
+            <blockquote class="quote">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.<br><cite>&mdash; Someone, Title</cite>
+            </blockquote>
+
+            <blockquote class="quote">Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod. Aenean lacinia bibendum nulla sed consectetur.<br><cite>&mdash; Someone else, Title</cite>
+            </blockquote>
+          </div>
+        </section><!-- end #testimonials -->
+
+        <section id="social-media" class="connect section">
+          <h2 class="section-title">Profiles</h2>
+
+          <div class="entry">
+            <ul class="social">
+              <li>
+                <a href="https://www.facebook.com/yourname/">
+                  <img src="images/facebook.svg" alt="facebook icon">
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/yourname/">
+                  <img src="images/twitter.svg" alt="twitter icon">
+                </a>
+              </li>
+              <li>
+                <a href="https://www.vimeo.com/yourname/">
+                  <img src="images/vimeo.svg" alt="vimeo icon">
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/yourname/">
+                  <img src="images/youtube.svg" alt="youtube icon">
+                </a>
+              </li>
+              <li>
+                <a href="https://instagram.com/yourname/">
+                  <img src="images/instagram.svg" alt="instagram icon">
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/yourname/">
+                  <img src="images/linkedin.svg" alt="linkedin icon">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section><!-- end #social-media -->
+      </main><!-- end #content -->
+    </div><!-- end .container -->
 
   </body>
 
