@@ -178,18 +178,9 @@ dd {
 
 /* Skills */
 .skills-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+  column-count: 3;
   margin-left: 0;
   list-style: none;
-}
-
-.skills-list li:not(:last-child):after {
-  display: inline;
-  content: '\2c\a0';
 }
 
 /* Social Media */
